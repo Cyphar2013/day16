@@ -1,0 +1,109 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar img {
+    width: 45px;
+}
+
+.navbar {
+    padding: 1.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+}
+
+.hero-section {
+    padding: 1.5rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: ;
+}
+
+.hero-section .col-1 {
+    width: 50%;
+    display: block;
+    margin-top: 10px;
+    line-height: 2.2rem;
+}
+
+
+.hero-section .col-1::before{
+    content: "";
+    background-color: red;
+    width: 15px;
+    height: 40%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.hero-section .col-2 {
+    display: flex;
+    width: 50%;
+}
+
+.plus-image {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.padding-p {
+    padding: 14px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    transition: 0.5s ease-in;
+}
+
+button:hover {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.gamepad {
+    width: 70px;
+}
+
+.empty-div {
+    background:linear-gradient(to top, rgb(248, 109, 109), rgb(245, 226, 242));
+    width: 40vw;
+    height: 60vh;
+    position: relative;
+    top: 30px; 
+    float: right;
+    transform: translateX(150px);
+    border-radius: 12px;
+}
+
+.images {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    left: 40%;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+}
